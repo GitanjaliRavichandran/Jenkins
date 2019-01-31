@@ -62,11 +62,16 @@ Other examples can be found in this excellent explanation about Webhooks.
 The above problem can ne overcome by installing **```ngrock```** in your local machine which **exposes the localhost over the internet**.[Install now](https://ngrok.com/download)
 > ![ngrok](https://github.com/GitanjaliRavichandran/git/blob/master/ngrok.png)
 # Execution
-* Run the following command in your local machine for exposing your local host **```http://localhost:8080/```** over the internet.
-** ```
+* Run the following command in your local machine terminal for exposing your local host **```http://localhost:8080/```** over the internet.
+>
+```
 ./ngrok http 8080
-``` **
-
+```
+* Executing the following command generates an ip address which can exposed to the Webhook's payoad url 
+> ![ip forwading](https://github.com/GitanjaliRavichandran/git/blob/master/Selection_013.png)
+* Open the github repository and Select Settings--> Webhook --> Add Webhhok
+* Give the payload url as follows
+> ![payload url](https://github.com/GitanjaliRavichandran/git/blob/master/Selection_012.png)
 
 
 # Reference
