@@ -68,7 +68,7 @@ The above problem can ne overcome by installing **```ngrock```** in your local m
 ./ngrok http 8080
 ```
 * Executing the above command generates an ip address which can exposed to the Webhook's payoad url 
-> ![ip forwading](https://github.com/GitanjaliRavichandran/git/blob/master/Selection_013.png)
+> ![ip forwading](https://github.com/GitanjaliRavichandran/git/blob/master/Selection_015.png)
 * Open the github repository and Select Settings--> Webhook --> Add Webhook
 * Give the payload url as follows
 > ![payload url](https://github.com/GitanjaliRavichandran/git/blob/master/Selection_012.png)
