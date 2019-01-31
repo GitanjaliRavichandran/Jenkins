@@ -61,6 +61,11 @@ Other examples can be found in this excellent explanation about Webhooks.
 > Testing these webhooks goes fairly smoothly as long as the system is publicly accessible over the internet. This might be your production environment or a publicly accessible staging environment. It becomes harder when you are developing locally on your laptop. In those cases, the local URL’s are not publicly accessible by the party sending the webhook. Also, monitoring the requests being sent around is be difficult, which might make development and debugging hard.
 The above problem can ne overcome by installing **```ngrock```** in your local machine which **exposes the localhost over the internet**.[Install now](https://ngrok.com/download)
 > ![ngrok](https://github.com/GitanjaliRavichandran/git/blob/master/ngrok.png)
+# Execution
+* Run the following command in your local machine for exposing your local host **```http://localhost:8080/```** over the internet.
+** ```
+./ngrok http 8080
+``` **
 
 
 
