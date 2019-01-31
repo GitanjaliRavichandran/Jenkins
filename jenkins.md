@@ -67,14 +67,16 @@ The above problem can ne overcome by installing **```ngrock```** in your local m
 ```
 ./ngrok http 8080
 ```
-* Executing the following command generates an ip address which can exposed to the Webhook's payoad url 
+* Executing the above command generates an ip address which can exposed to the Webhook's payoad url 
 > ![ip forwading](https://github.com/GitanjaliRavichandran/git/blob/master/Selection_013.png)
 * Open the github repository and Select Settings--> Webhook --> Add Webhhok
 * Give the payload url as follows
 > ![payload url](https://github.com/GitanjaliRavichandran/git/blob/master/Selection_012.png)
+* The remaining procedure are the same as explained previously.
 
 
 # Reference
 * [https://developer.github.com/webhooks/creating/](https://developer.github.com/webhooks/creating/)
 * [https://thepracticalsysadmin.com/setting-up-a-github-webhook-in-jenkins/](https://thepracticalsysadmin.com/setting-up-a-github-webhook-in-jenkins/)
 * [https://www.youtube.com/watch?v=Z3S2gMBUkBo](https://www.youtube.com/watch?v=Z3S2gMBUkBo)
+* [https://medium.freecodecamp.org/testing-webhooks-while-using-vagrant-for-development-98b5f3bedb1d](https://medium.freecodecamp.org/testing-webhooks-while-using-vagrant-for-development-98b5f3bedb1d)
