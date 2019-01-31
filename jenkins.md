@@ -71,7 +71,7 @@ The above problem can ne overcome by installing **```ngrock```** in your local m
 > ![ip forwading](https://github.com/GitanjaliRavichandran/git/blob/master/Selection_015.png)
 * Open the github repository and Select Settings--> Webhook --> Add Webhook
 * Give the payload url as follows
-> ![payload url](https://github.com/GitanjaliRavichandran/git/blob/master/Selection_012.png)
+> ![payload url](https://github.com/GitanjaliRavichandran/git/blob/master/Selection_013.png)
 * The remaining procedure are the same as explained previously.
 
 
