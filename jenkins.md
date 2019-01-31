@@ -54,6 +54,14 @@ http://ip address:8080/github-webhook/
 ![Webhook](https://github.com/GitanjaliRavichandran/git/blob/master/Selection_011.png)
 
 You can also add multiple webhooks to a repository 
+# How to test Webhooks when you’re developing locally?
+Webhooks can be used by an external system for notifying your system about a certain event or update. Probably the most well known type is the one where a Payment Service Provider (PSP) informs your system about status updates of payments.
+Other examples can be found in this excellent explanation about Webhooks. 
+[https://sendgrid.com/blog/whats-webhook/](https://sendgrid.com/blog/whats-webhook/).
+> Testing these webhooks goes fairly smoothly as long as the system is publicly accessible over the internet. This might be your production environment or a publicly accessible staging environment. It becomes harder when you are developing locally on your laptop. In those cases, the local URL’s are not publicly accessible by the party sending the webhook. Also, monitoring the requests being sent around is be difficult, which might make development and debugging hard.
+The above problem can ne overcome by installing **```ngrock```** in your local machine which **exposes the localhost over the internet**.[Install now](https://ngrok.com/download)
+
+
 
 # Reference
 * [https://developer.github.com/webhooks/creating/](https://developer.github.com/webhooks/creating/)
