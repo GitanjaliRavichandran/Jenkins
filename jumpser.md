@@ -15,7 +15,7 @@
 1. SSH Key should be generated for the above instance too and this key should also be pasted in the host network  
 1. Create the VPC Peering rule such that the  host is peered with a default network and vice versa.
 ![Peering](https://github.com/GitanjaliRavichandran/git/blob/master/Selection_017.png)
-1.Now we can access the client by using the jump server ssh. 
+> Now we can access the client by using the jump server ssh. 
 
 
 
