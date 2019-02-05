@@ -6,7 +6,7 @@
 >
 [Ensure that java *jre* and *jdk* files are installed before installing *jenkins*](https://www.linode.com/docs/development/java/install-java-on-ubuntu-16-04/)
 > 
-# Creating a job(new item):
+# Creating a job(new item):-
 * Select freestyle project when creating a new item and then click OK
 * *General* - In the next Window,Select the *Github project* checkbox
 ![GENERAL](https://github.com/GitanjaliRavichandran/git/blob/master/Selection_005.png)
