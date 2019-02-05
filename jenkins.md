@@ -1,5 +1,5 @@
 # JENKINS AND GITHUB WEBHOOK
-# Jenkins
+# Jenkins Home 
 > Jenkins is an open source automation server intended to automate repetitive technical tasks involved in the continuous integration and delivery of software. Jenkins is Java-based and can be installed from Ubuntu packages or by downloading and running its Web application ARchive (WAR) file — a collection of files that make up a complete web application which is intended to be run on a server.In this tutorial we will install Jenkins by adding its Debian package repository, then using that repository to install the package using apt-get.
 >
 > [Click here to get Jenkins Installed](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-16-04)
